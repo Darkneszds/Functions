@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int factorial(int n);
@@ -24,10 +24,10 @@ void main()
 	setlocale(LC_ALL, "");
 	int number;
 	int exponent;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> number;
-	cout << "Ôàêòîðèàë ÷èñëà: " << number << " = " << factorial(number) << endl;
-	cout << "Ââåäèòå çíà÷åíèå ñòåïåíè: "; cin >> exponent;
-	cout << "Ñòåïåíü ðàâíà: " << power(number, exponent);
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> number;
+	cout << "Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ñ‡Ð¸ÑÐ»Ð°: " << number << " = " << factorial(number) << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> exponent;
+	cout << "Ð¡Ñ‚ÐµÐ¿ÐµÐ½ÑŒ Ñ€Ð°Ð²Ð½Ð°: " << power(number, exponent);
 
 
 	/*const int n = 5;
@@ -36,8 +36,8 @@ void main()
 	Print(arr, n);
 	Sort(arr, n);
 	Print(arr, n);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << Sum(arr, n) << endl;
-	cout << "Ñðåäíå-àðèôìåòè÷åñêîå: " << Average(arr, n) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Sum(arr, n) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½Ðµ-Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ: " << Average(arr, n) << endl;
 
 	const int D_SIZE = 8;
 	double d_arr[D_SIZE];
